@@ -1,0 +1,61 @@
+body {
+    background-color: #202020;
+    background-image: url('../img/background-motif.png');
+    color: #9A9A9A;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1::first-letter,
+h2::first-letter,
+h3::first-letter,
+h4::first-letter,
+h5::first-letter,
+h6::first-letter {
+    color: #f45925;
+}
+
+header {
+    background-color: #DADADA;
+    color: #202020;
+}
+
+header a {
+    color: #202020;
+    text-decoration: inherit;
+}
+
+header a:hover {
+    color: #202020;
+    text-decoration: none;
+}
+
+.header-menu {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.header-menu a {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #DADADA;
+    transition: border-bottom 0.2s,
+        color 0.2s;
+}
+
+.header-menu a:hover {
+    color: #f45925;
+    border-bottom: 1px solid #f45925;
+}
+
+#services {
+   color: #AFAFAF;
+}
+
+.services-row {
+    height: 500px;
+}
+
+.background-image-container{position:relative;background-size:cover;background-repeat:no-repeat;background-position:top;padding:12% 0}
