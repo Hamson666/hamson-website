@@ -81,3 +81,24 @@ header a:hover {
     background-image: url('../img/background-purple-hearts.jpg');
     background-position: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #5A5A5A;
+    font-size: 0.9em;
+    box-shadow: inset 0 5px 15px #303030;
+}
+
+footer, footer a {
+    color: #9F9F9F;
+}
+
+footer a:hover {
+    color: #f45925;
+}
