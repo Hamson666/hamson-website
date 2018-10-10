@@ -1,11 +1,16 @@
 body {
     background-color: #202020;
     background-image: url('../img/background-motif.png');
-    color: #9A9A9A;
-    font-family: 'Rubik', sans-serif;
+    color: #AFAFAF;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -26,11 +31,13 @@ header {
 header a {
     color: #202020;
     text-decoration: inherit;
+    /*    transition: color 0.2s;*/
 }
 
 header a:hover {
-    color: #202020;
+    color: #f45925;
     text-decoration: none;
+    background-color: #CACACA;
 }
 
 .header-menu {
@@ -40,22 +47,37 @@ header a:hover {
 
 .header-menu a {
     padding: 0.5em 0;
-    border-bottom: 1px solid #DADADA;
+    /*border-bottom: 1px solid #DADADA;
     transition: border-bottom 0.2s,
-        color 0.2s;
+        color 0.2s;*/
 }
 
-.header-menu a:hover {
+/*.header-menu a:hover {
     color: #f45925;
     border-bottom: 1px solid #f45925;
-}
+}*/
 
 #services {
-   color: #AFAFAF;
+    color: #AFAFAF;
 }
 
 .services-row {
     height: 500px;
 }
 
-.background-image-container{position:relative;background-size:cover;background-repeat:no-repeat;background-position:top;padding:12% 0}
+.background-image-container {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 12% 0
+}
+
+.realisation {
+    text-shadow: black 0 0 5px;
+}
+
+.purple-hearts-portfolio {
+    background-image: url('../img/background-purple-hearts.jpg');
+    background-position: center;
+}
